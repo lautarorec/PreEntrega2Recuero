@@ -95,6 +95,7 @@ div>img{
 }
 .izq{
     text-align: left;
+    margin-top: 5%;
 }
 nav{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -238,7 +239,9 @@ div.form{
 }
 form{
     display: grid;
-    gap: 15%;
+    gap: 12%;
+    margin: auto;
+    margin-bottom: 12%;
 }
 :root{
     --color-black: black;
@@ -248,5 +251,55 @@ form{
     --color-orange: #EB9532;
     --color-purple: #7E3661;
 }
+.card {
+	background-color: white; 
+	border-radius: 8px;
+	padding: 1rem;
+	width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__img {
+	width: 100%;
+}
+
+.card__title {
+	font-size: 20px;
+	margin: 14px 0 10px;
+}
+.card__link{
+    border-radius: 8px;
+    margin-top: 7px;
+    padding: 0.7rem 0.6rem;
+    color: white;
+    text-decoration: none;
+    background-color: coral;
+    font-size: 15px;
+    display: inline-block;
+}
+.card__link--modif{
+    background-color: red;
+    border: none;}
+.tit{
+    margin-bottom: 2rem;
+}
+h2::first-letter{
+    font-size: 2rem;
+}
+.form1{
+    border-top: none;
+    border-bottom: none;
+}
+section.formulario{
+    display: flex;
+    margin: auto;}
+textarea {
+			border-radius: 8px;
+			padding: 10px;
+			border: 0;}
+div.h2{
+    border: none;
+    padding: 1%;}
 
 
